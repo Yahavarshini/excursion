@@ -1,0 +1,72 @@
+body{
+  background-color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+}
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    margin: 20px auto;
+}
+a{
+    color: aquamarine;
+    font-size: 16px;
+    align-items: center;
+    margin: 20px auto
+}
+video{
+    align-items: center;
+}
+.mid{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    align-items: center;
+    color: white;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+    align-items: center;
+}
+p{
+    align-items: center;
+    margin: 20px auto;
+}
+#camp{
+    height: 500;
+    width: 850;
+    margin: 20px auto;
+}
+#phone{
+    height: 108;
+    width: 64;
+    margin: 20px auto;
+}
+.footer{
+    text-align: right;
+    color: gray;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+      font-size: 40px;
+    }
+  
+    .mid {
+      font-size: 36px;
+    }
+  
+    .text {
+      font-size: 18px;
+    }
+    #camp{
+        width: 100%;
+        height: auto;
+    }
+
+  }
